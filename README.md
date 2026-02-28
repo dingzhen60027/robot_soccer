@@ -28,19 +28,40 @@ The system is designed for real-time multi-robot coordination and can run in bot
 ## 🧠 System Architecture
 
 ```
-Vision → World Model → Strategy → Communication → Robots
-                         ↓
-                        GUI
-                         ↓
-                     Isaac Sim
+Isaac Sim
+   │  (ROS 2 Bridge: camera / ground truth / physics)
+   ▼
+Vision → Vision processed results → Strategy → Communication → Robots
+                                   ▲
+                                   │
+                                  GUI
+
 ```
+### 🔄 Data Flow
+
+* **Isaac Sim**
+
+  * publishes simulated camera images via ROS 2 bridge
+  * publishes robot & ball ground truth (optional)
+  * receives robot command topics
+* **Vision**
+
+  * consumes real-time images from Isaac Sim or real cameras
+* **Strategy**
+
+  * computes team behaviors
+* **Communication**
+
+  * sends commands to robots **or back to Isaac Sim robots**
+* **GUI**
+
+  * monitors and controls the full pipeline
 
 ### Modules
 
 | Module        | Description                         |
 | ------------- | ----------------------------------- |
 | Vision        | Ball & robot detection and tracking |
-| World Model   | State estimation and fusion         |
 | Strategy      | Team tactics and behavior planning  |
 | Communication | Robot command transmission          |
 | GUI (Qt)      | Operator interface                  |
@@ -55,16 +76,13 @@ Vision → World Model → Strategy → Communication → Robots
 ├── src/
 │   ├── vision/
 │   ├── strategy/
-│   ├── communication/
-│   ├── message_interface_robosoccer/
-│   └── gui_qt/
+│   ├── communication_robosoccer/
+│   ├── message_interface_robosoccer/launch/launch.py
+│   └── gui_robosoccer/
 ├── isaac_sim/
-├── config/
-├── launch/
 └── README.md
 ```
 
-> Adjust to match your actual tree.
 
 ---
 
@@ -73,9 +91,9 @@ Vision → World Model → Strategy → Communication → Robots
 ### System
 
 * Ubuntu 22.04 (recommended)
-* ROS 2 Humble / Iron
-* Qt 5 or Qt 6
-* NVIDIA GPU (for Isaac Sim)
+* ROS 2 Humble 
+* Qt 5 >= 14.0
+* NVIDIA GPU (for Isaac Sim) 
 
 ### ROS 2 Dependencies
 
@@ -96,8 +114,8 @@ rosdep install --from-paths src --ignore-src -r -y
 ## ⚙️ Build
 
 ```bash
-mkdir -p ~/elong_ws
-cd ~/elong_ws
+mkdir -p ~/robosoccer_ws
+cd ~/robosoccer_ws
 
 # clone repo
 git clone <your-repo-url> src
@@ -119,28 +137,17 @@ source install/setup.bash
 ### 1️⃣ Launch Core System
 
 ```bash
-ros2 launch <your_package> bringup.launch.py
+ros2 launch gui_robosoccer launch.py
 ```
 
----
 
-### 2️⃣ Start Qt GUI
-
-```bash
-ros2 run gui_qt soccer_gui
-```
-
----
-
-### 3️⃣ Run Isaac Sim
+### 2️⃣ Run Isaac Sim
 
 Start Isaac Sim and load the provided scene:
 
 ```
 isaac_sim/scenes/robosoccer_5v5.usd
 ```
-
-Then bridge ROS 2 topics.
 
 ---
 
@@ -153,20 +160,7 @@ The Qt GUI provides:
 * 🎯 Strategy control
 * 📡 Communication diagnostics
 * ▶️ Simulation control
-
-*(Add screenshots here — highly recommended)*
-
----
-
-## 🔌 ROS 2 Interfaces
-
-### Topics (examples)
-
-| Topic                | Type       | Description        |
-| -------------------- | ---------- | ------------------ |
-| `/vision/detections` | custom msg | Raw detections     |
-| `/world_model`       | custom msg | Fused state        |
-| `/robot_commands`    | custom msg | Commands to robots |
+<img width="1820" height="1055" alt="image" src="https://github.com/user-attachments/assets/c42548a7-e24d-4aa7-b8d1-aa1eb246bed1" />
 
 ---
 
@@ -178,6 +172,8 @@ The project supports full closed-loop simulation:
 * Camera simulation
 * Multi-robot interaction
 * Strategy validation
+
+<img width="1460" height="955" alt="image" src="https://github.com/user-attachments/assets/c75a8309-9f59-44c9-b126-c7d4b4d79b43" />
 
 ### Workflow
 
@@ -219,22 +215,3 @@ Please:
 
 ---
 
-## 📄 License
-
-Specify your license here (MIT / BSD / Apache-2.0 recommended).
-
----
-
----
-
-# 👍 Optional upgrades (if you want to look pro)
-
-If you want, I can next help you add:
-
-* 🔥 architecture diagram (very impressive)
-* 🔥 ROS graph diagram
-* 🔥 multi-robot behavior tree
-* 🔥 Isaac Sim bridge diagram
-* 🔥 competition-ready README
-
-Just tell me your target (research paper / RoboCup / GitHub showcase).
