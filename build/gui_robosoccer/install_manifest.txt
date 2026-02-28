@@ -1,0 +1,17 @@
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/lib/gui_robosoccer/gui_robosoccer
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/launch/launch.py
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/package_run_dependencies/gui_robosoccer
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/parent_prefix_path/gui_robosoccer
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/ament_prefix_path.sh
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/ament_prefix_path.dsv
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/path.sh
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/path.dsv
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.bash
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.sh
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.zsh
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.dsv
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/package.dsv
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/packages/gui_robosoccer
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/cmake/gui_robosoccerConfig.cmake
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/cmake/gui_robosoccerConfig-version.cmake
+/home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/package.xml

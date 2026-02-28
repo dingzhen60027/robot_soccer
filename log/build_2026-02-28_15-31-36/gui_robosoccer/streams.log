@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/gui_robosoccer -- -j24 -l24
+[0.034s] [  5%] [34m[1mAutomatic MOC and UIC for target gui_robosoccer[0m
+[0.047s] [  5%] Built target gui_robosoccer_autogen
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target gui_robosoccer[0m
+[0.079s] [100%] Built target gui_robosoccer
+[0.086s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/gui_robosoccer -- -j24 -l24
+[0.087s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/gui_robosoccer
+[0.090s] -- Install configuration: "Debug"
+[0.090s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/lib/gui_robosoccer/gui_robosoccer
+[0.090s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/launch
+[0.090s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/launch/launch.py
+[0.090s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/package_run_dependencies/gui_robosoccer
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/parent_prefix_path/gui_robosoccer
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/ament_prefix_path.sh
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/ament_prefix_path.dsv
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/path.sh
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/path.dsv
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.bash
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.sh
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.zsh
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.dsv
+[0.091s] -- Installing: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/package.dsv
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/packages/gui_robosoccer
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/cmake/gui_robosoccerConfig.cmake
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/cmake/gui_robosoccerConfig-version.cmake
+[0.091s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/package.xml
+[0.092s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/gui_robosoccer

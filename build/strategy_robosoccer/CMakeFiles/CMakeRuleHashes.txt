@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+b4b3a8f5dd8539cc862eff07b4b2179a CMakeFiles/strategy_robosoccer_uninstall

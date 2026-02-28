@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/gui_robosoccer_autogen",
+	"CMAKE_BINARY_DIR" : "/home/eric/wjg/elong_ws_fps/build/gui_robosoccer",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/eric/wjg/elong_ws_fps/build/gui_robosoccer",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/eric/wjg/elong_ws_fps/src/gui_robosoccer",
+	"CMAKE_SOURCE_DIR" : "/home/eric/wjg/elong_ws_fps/src/gui_robosoccer",
+	"INCLUDE_DIR" : "/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/gui_robosoccer_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/eric/wjg/elong_ws_fps/src/gui_robosoccer/resource/images/waitForVision_camera.png",
+		"/home/eric/wjg/elong_ws_fps/src/gui_robosoccer/resource/images/startup-process.png",
+		"/home/eric/wjg/elong_ws_fps/src/gui_robosoccer/resource/images/HSICir.bmp",
+		"/home/eric/wjg/elong_ws_fps/src/gui_robosoccer/resource/images/ground.bmp",
+		"/home/eric/wjg/elong_ws_fps/src/gui_robosoccer/resource/images/waitForVision_process.png",
+		"/home/eric/wjg/elong_ws_fps/src/gui_robosoccer/resource/images/startup-camera.png"
+	],
+	"LOCK_FILE" : "/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/gui_robosoccer_autogen.dir/AutoRcc_images_6WJNPILU4A_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "6WJNPILU4A",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/gui_robosoccer_autogen.dir/AutoRcc_images_6WJNPILU4A_Used.txt",
+	"SOURCE" : "/home/eric/wjg/elong_ws_fps/src/gui_robosoccer/resource/images.qrc",
+	"VERBOSITY" : 0
+}

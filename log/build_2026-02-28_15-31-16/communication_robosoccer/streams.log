@@ -1,0 +1,96 @@
+[0.009s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/eric/wjg/elong_ws_fps/src/communication_robosoccer -DCMAKE_INSTALL_PREFIX=/home/eric/wjg/elong_ws_fps/install/communication_robosoccer
+[0.038s] -- The C compiler identification is GNU 9.5.0
+[0.065s] -- The CXX compiler identification is GNU 9.5.0
+[0.069s] -- Detecting C compiler ABI info
+[0.103s] -- Detecting C compiler ABI info - done
+[0.106s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.106s] -- Detecting C compile features
+[0.106s] -- Detecting C compile features - done
+[0.108s] -- Detecting CXX compiler ABI info
+[0.152s] -- Detecting CXX compiler ABI info - done
+[0.156s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.156s] -- Detecting CXX compile features
+[0.157s] -- Detecting CXX compile features - done
+[0.158s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.434s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.477s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.498s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.508s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.539s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.541s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.588s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.607s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.632s] -- Looking for pthread.h
+[0.668s] -- Looking for pthread.h - found
+[0.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.709s] -- Found Threads: TRUE  
+[0.738s] -- Found message_interface_robosoccer: 0.0.0 (/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake)
+[0.760s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.805s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.805s] -- Configured cppcheck include dirs: 
+[0.806s] -- Configured cppcheck exclude dirs and/or files: 
+[0.806s] -- Added test 'lint_cmake' to check CMake code style
+[0.806s] -- Added test 'uncrustify' to check C / C++ code style
+[0.806s] -- Configured uncrustify additional arguments: 
+[0.807s] -- Added test 'xmllint' to check XML markup files
+[0.808s] -- Configuring done
+[0.816s] -- Generating done
+[0.820s] -- Build files have been written to: /home/eric/wjg/elong_ws_fps/build/communication_robosoccer
+[0.825s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/eric/wjg/elong_ws_fps/src/communication_robosoccer -DCMAKE_INSTALL_PREFIX=/home/eric/wjg/elong_ws_fps/install/communication_robosoccer
+[0.826s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/communication_robosoccer -- -j24 -l24
+[0.852s] [ 12%] [32mBuilding CXX object CMakeFiles/communication_test.dir/src/communication_test.cpp.o[0m
+[0.854s] [ 25%] [32mBuilding C object CMakeFiles/communication.dir/src/hid-libusb.c.o[0m
+[0.854s] [ 37%] [32mBuilding C object CMakeFiles/communication_test.dir/src/hid-libusb.c.o[0m
+[0.854s] [ 50%] [32mBuilding CXX object CMakeFiles/communication.dir/src/communication.cpp.o[0m
+[0.854s] [ 62%] [32mBuilding CXX object CMakeFiles/single_vel_pub.dir/src/vel_pub_test.cpp.o[0m
+[0.881s] [01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:[m[K In function ‘[01m[Khid_error[m[K’:
+[0.881s] [01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:1299:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdev[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.881s]  1299 | HID_API_EXPORT const wchar_t * HID_API_CALL  hid_error([01;35m[Khid_device *dev[m[K)
+[0.881s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~[m[K
+[0.894s] [01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:[m[K In function ‘[01m[Khid_error[m[K’:
+[0.894s] [01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:1299:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdev[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.894s]  1299 | HID_API_EXPORT const wchar_t * HID_API_CALL  hid_error([01;35m[Khid_device *dev[m[K)
+[0.894s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.477s] [01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/communication.cpp:[m[K In member function ‘[01m[Kint Communication::initUSB()[m[K’:
+[2.477s] [01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/communication.cpp:112:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[2.477s]   112 |             [01;35m[Kelse[m[K
+[2.477s]       |             [01;35m[K^~~~[m[K
+[2.477s] [01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/communication.cpp:118:10:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+[2.477s]   118 |          [01;36m[Kint[m[K r = hid_write(dev_handle,USB_Buffer,33);
+[2.477s]       |          [01;36m[K^~~[m[K
+[3.435s] [ 75%] [32m[1mLinking CXX executable communication_test[0m
+[3.564s] [ 75%] Built target communication_test
+[4.088s] [ 87%] [32m[1mLinking CXX executable single_vel_pub[0m
+[4.195s] [ 87%] Built target single_vel_pub
+[6.976s] [100%] [32m[1mLinking CXX executable communication[0m
+[7.256s] [100%] Built target communication
+[7.264s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/communication_robosoccer -- -j24 -l24
+[7.265s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/communication_robosoccer
+[7.269s] -- Install configuration: ""
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/ament_index/resource_index/package_run_dependencies/communication_robosoccer
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/ament_index/resource_index/parent_prefix_path/communication_robosoccer
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/ament_prefix_path.sh
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/ament_prefix_path.dsv
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/path.sh
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/path.dsv
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.bash
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.sh
+[7.269s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.zsh
+[7.270s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.dsv
+[7.270s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/package.dsv
+[7.270s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/ament_index/resource_index/packages/communication_robosoccer
+[7.270s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/cmake/communication_robosoccerConfig.cmake
+[7.270s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/cmake/communication_robosoccerConfig-version.cmake
+[7.270s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/package.xml
+[7.270s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/communication
+[7.271s] -- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/communication" to ""
+[7.271s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/single_vel_pub
+[7.272s] -- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/single_vel_pub" to ""
+[7.272s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/communication_test
+[7.272s] -- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/communication_test" to ""
+[7.274s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/communication_robosoccer

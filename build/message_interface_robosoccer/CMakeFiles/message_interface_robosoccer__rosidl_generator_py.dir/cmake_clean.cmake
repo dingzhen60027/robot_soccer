@@ -1,0 +1,27 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_array_threshold_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_array_threshold_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_decision_var_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_decision_var_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_image_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_image_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_point_calibration_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_point_calibration_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_point_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_point_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_pose_robots_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_pose_robots_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_pose_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_pose_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_velocity_robots_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_velocity_robots_s.c.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_velocity_s.c.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_velocity_s.c.o.d"
+  "rosidl_generator_py/message_interface_robosoccer/libmessage_interface_robosoccer__rosidl_generator_py.pdb"
+  "rosidl_generator_py/message_interface_robosoccer/libmessage_interface_robosoccer__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

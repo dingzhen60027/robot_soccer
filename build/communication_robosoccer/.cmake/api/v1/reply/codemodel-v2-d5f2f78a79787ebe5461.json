@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7a5144219b2390848443.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "communication_robosoccer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "communication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication-6eacdcf1de01b0d588a7.json",
+					"name" : "communication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_robosoccer_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_robosoccer_uninstall-af4bca47de5f9da6893f.json",
+					"name" : "communication_robosoccer_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_test-f274a06723c2c31764ee.json",
+					"name" : "communication_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_vel_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_vel_pub-b5d0c8e0a7bb72157fe8.json",
+					"name" : "single_vel_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1dd3b56007d99e665f40.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eric/wjg/elong_ws_fps/build/communication_robosoccer",
+		"source" : "/home/eric/wjg/elong_ws_fps/src/communication_robosoccer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

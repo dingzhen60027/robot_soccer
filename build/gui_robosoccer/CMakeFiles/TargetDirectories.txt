@@ -1,0 +1,11 @@
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/uninstall.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/gui_robosoccer_uninstall.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/gui_robosoccer.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/test.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/edit_cache.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/rebuild_cache.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/list_install_components.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/install.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/install/local.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/install/strip.dir
+/home/eric/wjg/elong_ws_fps/build/gui_robosoccer/CMakeFiles/gui_robosoccer_autogen.dir

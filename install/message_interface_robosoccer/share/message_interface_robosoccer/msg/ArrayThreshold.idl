@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_interface_robosoccer/msg/ArrayThreshold.msg
+// generated code does not contain a copyright notice
+
+
+module message_interface_robosoccer {
+  module msg {
+    typedef int32 int32__48[48];
+    struct ArrayThreshold {
+      int32__48 hsithreshold;
+    };
+  };
+};

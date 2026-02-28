@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3028534455cadcc6eed4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vision_robosoccer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f8426e7ffb5669ea956a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision-66ced06931a28e9737d1.json",
+					"name" : "vision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_control_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_control_test-a8fe3f7cdf496d2939e2.json",
+					"name" : "vision_control_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_display_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_display_test-70a0f34f9f26d101ac61.json",
+					"name" : "vision_display_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_processing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_processing-1dbca4b44656386d3796.json",
+					"name" : "vision_processing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_robosoccer_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_robosoccer_uninstall-2696579c571987f67fc0.json",
+					"name" : "vision_robosoccer_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eric/wjg/elong_ws_fps/build/vision_robosoccer",
+		"source" : "/home/eric/wjg/elong_ws_fps/src/vision_robosoccer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

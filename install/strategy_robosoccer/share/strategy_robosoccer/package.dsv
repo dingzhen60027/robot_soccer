@@ -1,0 +1,8 @@
+source;share/strategy_robosoccer/hook/cmake_prefix_path.ps1
+source;share/strategy_robosoccer/hook/cmake_prefix_path.dsv
+source;share/strategy_robosoccer/hook/cmake_prefix_path.sh
+source;share/strategy_robosoccer/local_setup.bash
+source;share/strategy_robosoccer/local_setup.dsv
+source;share/strategy_robosoccer/local_setup.ps1
+source;share/strategy_robosoccer/local_setup.sh
+source;share/strategy_robosoccer/local_setup.zsh

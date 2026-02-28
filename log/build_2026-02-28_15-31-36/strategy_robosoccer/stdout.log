@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target strategy[0m
+[100%] Built target strategy
+-- Install configuration: ""
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/ament_index/resource_index/package_run_dependencies/strategy_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/ament_index/resource_index/parent_prefix_path/strategy_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/path.sh
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/path.dsv
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.bash
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.sh
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.zsh
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.dsv
+-- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/package.dsv
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/ament_index/resource_index/packages/strategy_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/cmake/strategy_robosoccerConfig.cmake
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/cmake/strategy_robosoccerConfig-version.cmake
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/package.xml
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/lib/strategy_robosoccer/strategy

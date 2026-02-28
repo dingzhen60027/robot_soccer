@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/communication_robosoccer -- -j24 -l24
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target communication_test[0m
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target single_vel_pub[0m
+[0.030s] [35m[1mConsolidate compiler generated dependencies of target communication[0m
+[0.036s] [ 25%] Built target single_vel_pub
+[0.036s] [ 62%] Built target communication_test
+[0.039s] [100%] Built target communication
+[0.045s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/communication_robosoccer -- -j24 -l24
+[0.046s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/communication_robosoccer
+[0.049s] -- Install configuration: ""
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/ament_index/resource_index/package_run_dependencies/communication_robosoccer
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/ament_index/resource_index/parent_prefix_path/communication_robosoccer
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/ament_prefix_path.sh
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/ament_prefix_path.dsv
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/path.sh
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/environment/path.dsv
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.bash
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.sh
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.zsh
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/local_setup.dsv
+[0.050s] -- Installing: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/package.dsv
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/ament_index/resource_index/packages/communication_robosoccer
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/cmake/communication_robosoccerConfig.cmake
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/cmake/communication_robosoccerConfig-version.cmake
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/share/communication_robosoccer/package.xml
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/communication
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/single_vel_pub
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/communication_robosoccer/lib/communication_robosoccer/communication_test
+[0.052s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/communication_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/communication_robosoccer

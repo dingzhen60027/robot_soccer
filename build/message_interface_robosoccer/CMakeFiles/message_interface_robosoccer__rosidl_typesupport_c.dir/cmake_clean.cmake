@@ -1,0 +1,36 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/array_threshold__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/array_threshold__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/decision_var__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/decision_var__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/image__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/image__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/point__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/point__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/point_calibration__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/point_calibration__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/pose__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/pose__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/pose_robots__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/pose_robots__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/velocity__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/velocity__type_support.cpp.o.d"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/velocity_robots__type_support.cpp.o"
+  "CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/velocity_robots__type_support.cpp.o.d"
+  "libmessage_interface_robosoccer__rosidl_typesupport_c.pdb"
+  "libmessage_interface_robosoccer__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/array_threshold__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/decision_var__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/image__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/point__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/point_calibration__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/pose__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/pose_robots__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/velocity__type_support.cpp"
+  "rosidl_typesupport_c/message_interface_robosoccer/msg/velocity_robots__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

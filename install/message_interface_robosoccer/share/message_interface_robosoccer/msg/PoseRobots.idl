@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_interface_robosoccer/msg/PoseRobots.msg
+// generated code does not contain a copyright notice
+
+#include "message_interface_robosoccer/msg/Pose.idl"
+
+module message_interface_robosoccer {
+  module msg {
+    typedef message_interface_robosoccer::msg::Pose message_interface_robosoccer__msg__Pose;
+    typedef message_interface_robosoccer__msg__Pose message_interface_robosoccer__msg__Pose__11[11];
+    struct PoseRobots {
+      message_interface_robosoccer__msg__Pose__11 pose;
+    };
+  };
+};

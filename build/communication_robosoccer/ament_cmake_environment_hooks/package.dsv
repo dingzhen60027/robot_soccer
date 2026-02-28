@@ -1,0 +1,4 @@
+source;share/communication_robosoccer/local_setup.bash
+source;share/communication_robosoccer/local_setup.dsv
+source;share/communication_robosoccer/local_setup.sh
+source;share/communication_robosoccer/local_setup.zsh

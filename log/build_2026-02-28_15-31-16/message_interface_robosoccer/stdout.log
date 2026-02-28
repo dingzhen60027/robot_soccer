@@ -1,0 +1,440 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_message_interface_robosoccer
+running egg_info
+creating message_interface_robosoccer.egg-info
+writing manifest file 'message_interface_robosoccer.egg-info/SOURCES.txt'
+writing manifest file 'message_interface_robosoccer.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_message_interface_robosoccer_egg
+[  2%] Built target message_interface_robosoccer__cpp
+[  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  6%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/image__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/point__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/array_threshold__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/decision_var__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/pose_robots__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/pose__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/point_calibration__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/velocity__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_c.dir/rosidl_generator_c/message_interface_robosoccer/msg/detail/velocity_robots__functions.c.o[0m
+[ 15%] [32m[1mLinking C shared library libmessage_interface_robosoccer__rosidl_generator_c.so[0m
+[ 15%] Built target message_interface_robosoccer__rosidl_generator_c
+[ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/velocity_robots__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/point_calibration__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/array_threshold__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/image__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/point__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/pose_robots__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/velocity__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/pose__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_interface_robosoccer/msg/decision_var__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/velocity_robots__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/image__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/point__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/point_calibration__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/pose__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/array_threshold__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/pose_robots__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/velocity__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_interface_robosoccer/msg/detail/decision_var__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/array_threshold__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/point_calibration__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/point__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/array_threshold__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/point_calibration__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/image__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/pose_robots__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/pose_robots__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/velocity__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/pose__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/velocity_robots__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/velocity__type_support.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libmessage_interface_robosoccer__rosidl_typesupport_cpp.so[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/velocity_robots__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_interface_robosoccer/msg/decision_var__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_interface_robosoccer/msg/detail/dds_fastrtps/decision_var__type_support.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libmessage_interface_robosoccer__rosidl_typesupport_c.so[0m
+[ 58%] Built target message_interface_robosoccer__rosidl_typesupport_cpp
+[ 60%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/array_threshold__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/point__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/point_calibration__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/array_threshold__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/image__type_support_c.cpp.o[0m
+[ 64%] Built target message_interface_robosoccer__rosidl_typesupport_c
+[ 65%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/point_calibration__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/point__type_support.c.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/pose_robots__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/pose_robots__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/image__type_support.c.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/pose__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/velocity__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/velocity_robots__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/pose__type_support.c.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_interface_robosoccer/msg/detail/decision_var__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/velocity__type_support.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/velocity_robots__type_support.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_interface_robosoccer/msg/detail/decision_var__type_support.c.o[0m
+[ 78%] [32m[1mLinking C shared library libmessage_interface_robosoccer__rosidl_typesupport_introspection_c.so[0m
+[ 80%] [32m[1mLinking CXX shared library libmessage_interface_robosoccer__rosidl_typesupport_introspection_cpp.so[0m
+[ 80%] Built target message_interface_robosoccer__rosidl_typesupport_introspection_c
+[ 80%] Built target message_interface_robosoccer__rosidl_typesupport_introspection_cpp
+[ 81%] [32m[1mLinking CXX shared library libmessage_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 82%] [32m[1mLinking CXX shared library libmessage_interface_robosoccer__rosidl_typesupport_fastrtps_c.so[0m
+[ 82%] Built target message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp
+[ 82%] Built target message_interface_robosoccer__rosidl_typesupport_fastrtps_c
+[ 82%] Built target message_interface_robosoccer
+[ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 83%] Built target message_interface_robosoccer__py
+[ 84%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_point_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_pose_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_velocity_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_decision_var_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_image_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_point_calibration_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_array_threshold_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_velocity_robots_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_generator_py.dir/rosidl_generator_py/message_interface_robosoccer/msg/_pose_robots_s.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/message_interface_robosoccer/libmessage_interface_robosoccer__rosidl_generator_py.so[0m
+[ 93%] Built target message_interface_robosoccer__rosidl_generator_py
+[ 96%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/message_interface_robosoccer/_message_interface_robosoccer_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message_interface_robosoccer/_message_interface_robosoccer_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/message_interface_robosoccer__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message_interface_robosoccer/_message_interface_robosoccer_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target message_interface_robosoccer__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target message_interface_robosoccer__rosidl_typesupport_c__pyext
+[100%] Built target message_interface_robosoccer__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/ament_index/resource_index/rosidl_interfaces/message_interface_robosoccer
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/pose.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/velocity.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__functions.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__struct.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__type_support.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__functions.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/array_threshold.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/pose_robots.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/velocity_robots.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/decision_var.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/image.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/point_calibration.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/point.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/library_path.sh
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/library_path.dsv
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_generator_c.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__type_support.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_c.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/decision_var.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/velocity_robots.hpp
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__traits.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__builder.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__struct.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/image.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/point.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/array_threshold.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/point_calibration.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/pose.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/velocity.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/pose_robots.hpp
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/dds_fastrtps
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg
+-- Up-to-date: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/decision_var__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose_robots__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/array_threshold__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/point_calibration__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/include/message_interface_robosoccer/message_interface_robosoccer/msg/detail/velocity_robots__type_support.cpp
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/pythonpath.sh
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/pythonpath.dsv
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer-0.0.0-py3.10.egg-info
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/libmessage_interface_robosoccer__rosidl_generator_py.so
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/_message_interface_robosoccer_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/_message_interface_robosoccer_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/_message_interface_robosoccer_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/__init__.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_image_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_decision_var.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_pose.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_velocity_robots.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_point.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_array_threshold.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_pose_robots_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_point_calibration.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_point_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_velocity_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_image.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_velocity_robots_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_pose_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_velocity.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/__init__.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_pose_robots.py
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_point_calibration_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_decision_var_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_array_threshold_s.c
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/__init__.py'...
+Listing '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/__init__.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_array_threshold.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_decision_var.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_image.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_point.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_point_calibration.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_pose.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_pose_robots.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_velocity.py'...
+Compiling '/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/msg/_velocity_robots.py'...
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages/message_interface_robosoccer/message_interface_robosoccer_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_generator_py.so
+-- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib/libmessage_interface_robosoccer__rosidl_generator_py.so" to ""
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/ArrayThreshold.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/PointCalibration.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Point.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Image.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/PoseRobots.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Pose.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Velocity.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/VelocityRobots.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/DecisionVar.idl
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/ArrayThreshold.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/PointCalibration.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Point.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Image.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/PoseRobots.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Pose.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/Velocity.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/VelocityRobots.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/msg/DecisionVar.msg
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/ament_index/resource_index/package_run_dependencies/message_interface_robosoccer
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/ament_index/resource_index/parent_prefix_path/message_interface_robosoccer
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/ament_prefix_path.sh
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/ament_prefix_path.dsv
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/path.sh
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/environment/path.dsv
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/local_setup.bash
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/local_setup.sh
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/local_setup.zsh
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/local_setup.dsv
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/package.dsv
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/ament_index/resource_index/packages/message_interface_robosoccer
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_generator_cExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_cExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_generator_cppExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccer__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_generator_pyExport.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/export_message_interface_robosoccer__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccerConfig.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake/message_interface_robosoccerConfig-version.cmake
+-- Installing: /home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/package.xml

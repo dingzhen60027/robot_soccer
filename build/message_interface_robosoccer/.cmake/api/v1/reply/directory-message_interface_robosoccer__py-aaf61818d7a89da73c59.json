@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "message_interface_robosoccer__py",
+		"source" : "/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/message_interface_robosoccer__py"
+	}
+}

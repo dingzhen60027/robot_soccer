@@ -1,0 +1,4 @@
+Invoking command in '/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer -- -j24 -l24
+Invoked command in '/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer -- -j24 -l24
+Invoking command in '/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer
+Invoked command in '/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer

@@ -1,0 +1,10 @@
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/uninstall.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/strategy_robosoccer_uninstall.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/strategy.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/test.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/edit_cache.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/rebuild_cache.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/list_install_components.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/install.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/install/local.dir
+/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer/CMakeFiles/install/strip.dir

@@ -1,0 +1,15 @@
+[01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:[m[K In function ‘[01m[Khid_error[m[K’:
+[01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:1299:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdev[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 1299 | HID_API_EXPORT const wchar_t * HID_API_CALL  hid_error([01;35m[Khid_device *dev[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:[m[K In function ‘[01m[Khid_error[m[K’:
+[01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/hid-libusb.c:1299:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdev[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 1299 | HID_API_EXPORT const wchar_t * HID_API_CALL  hid_error([01;35m[Khid_device *dev[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/communication.cpp:[m[K In member function ‘[01m[Kint Communication::initUSB()[m[K’:
+[01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/communication.cpp:112:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+  112 |             [01;35m[Kelse[m[K
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/eric/wjg/elong_ws_fps/src/communication_robosoccer/src/communication.cpp:118:10:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+  118 |          [01;36m[Kint[m[K r = hid_write(dev_handle,USB_Buffer,33);
+      |          [01;36m[K^~~[m[K

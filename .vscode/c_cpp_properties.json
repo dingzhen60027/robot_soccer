@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/wjg/elong_ws/install/message_interface_robosoccer/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/wjg/elong_ws/src/communication_robosoccer/include/**",
+                "/home/wjg/elong_ws/src/message_interface_robosoccer/include/**",
+                "/home/wjg/elong_ws/src/strategy_robosoccer/include/**",
+                "/home/wjg/elong_ws/src/vision_robosoccer/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/gui_robosoccer/include",
+                "${workspaceFolder}/src/strategy_robosoccer/include/strategy_robosoccer",
+                "${workspaceFolder}/install/message_interface_robosoccer/include/message_interface_robosoccer",
+                "${workspaceFolder}/src/vision_robosoccer/include/vision_robosoccer",
+                "${workspaceFolder}/src/vision_robosoccer/include",
+                "${workspaceFolder}/build/gui_robosoccer/gui_robosoccer_autogen/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

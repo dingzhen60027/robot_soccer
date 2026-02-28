@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_interface_robosoccer/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+
+module message_interface_robosoccer {
+  module msg {
+    struct Pose {
+      @default (value=0.0)
+      double x;
+
+      @default (value=0.0)
+      double y;
+
+      @default (value=0.0)
+      double theta;
+    };
+  };
+};

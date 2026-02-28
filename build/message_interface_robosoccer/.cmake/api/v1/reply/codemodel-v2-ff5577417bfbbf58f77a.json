@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-01e6bcc71c76003f5b9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "message_interface_robosoccer__py",
+					"jsonFile" : "directory-message_interface_robosoccer__py-aaf61818d7a89da73c59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/message_interface_robosoccer__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "message_interface_robosoccer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_message_interface_robosoccer_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_message_interface_robosoccer_egg-dd01bec74a84a2cb85e1.json",
+					"name" : "ament_cmake_python_build_message_interface_robosoccer_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_message_interface_robosoccer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_message_interface_robosoccer-13e3a1920ce99627c265.json",
+					"name" : "ament_cmake_python_copy_message_interface_robosoccer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer-c9678ca2ad33a09c57c6.json",
+					"name" : "message_interface_robosoccer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__cpp-0de96aa74e4ec208aa74.json",
+					"name" : "message_interface_robosoccer__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "message_interface_robosoccer__py::@b15edbe3ddb70a5ef61a",
+					"jsonFile" : "target-message_interface_robosoccer__py-fae246d715d01f8e1ace.json",
+					"name" : "message_interface_robosoccer__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_generator_c-3240771fe8ae14a39839.json",
+					"name" : "message_interface_robosoccer__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_generator_py-496ac9409f26876b5eab.json",
+					"name" : "message_interface_robosoccer__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_c-8b6473454dc9e8a149ad.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_c__pyext-429347aafc450012d2d3.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_cpp-65e34569fda0c44bb706.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_fastrtps_c-f948111b5a3e0c05a9d1.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_fastrtps_c__pyext-7e5467d3af225d133959.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp-4b42f3f943a64265a407.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_introspection_c-5d87983f362382624d61.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_introspection_c__pyext-669c9b9a9d174cfc0d9e.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer__rosidl_typesupport_introspection_cpp-0584916aa4df7ec776b7.json",
+					"name" : "message_interface_robosoccer__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "message_interface_robosoccer_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message_interface_robosoccer_uninstall-115e813d7272255f86a1.json",
+					"name" : "message_interface_robosoccer_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-898eab6214bfbd6f573c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer",
+		"source" : "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

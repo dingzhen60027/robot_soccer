@@ -1,0 +1,9 @@
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/ArrayThreshold.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/PointCalibration.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/Point.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/Image.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/PoseRobots.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/Pose.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/Velocity.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/VelocityRobots.idl
+/home/eric/wjg/elong_ws_fps/build/message_interface_robosoccer/rosidl_adapter/message_interface_robosoccer:msg/DecisionVar.idl

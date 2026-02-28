@@ -1,0 +1,9 @@
+from message_interface_robosoccer.msg._array_threshold import ArrayThreshold  # noqa: F401
+from message_interface_robosoccer.msg._decision_var import DecisionVar  # noqa: F401
+from message_interface_robosoccer.msg._image import Image  # noqa: F401
+from message_interface_robosoccer.msg._point import Point  # noqa: F401
+from message_interface_robosoccer.msg._point_calibration import PointCalibration  # noqa: F401
+from message_interface_robosoccer.msg._pose import Pose  # noqa: F401
+from message_interface_robosoccer.msg._pose_robots import PoseRobots  # noqa: F401
+from message_interface_robosoccer.msg._velocity import Velocity  # noqa: F401
+from message_interface_robosoccer.msg._velocity_robots import VelocityRobots  # noqa: F401

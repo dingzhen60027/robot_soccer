@@ -1,0 +1,490 @@
+[0.007s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/eric/wjg/elong_ws_fps/src/strategy_robosoccer -DCMAKE_INSTALL_PREFIX=/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer
+[0.036s] -- The C compiler identification is GNU 9.5.0
+[0.064s] -- The CXX compiler identification is GNU 9.5.0
+[0.067s] -- Detecting C compiler ABI info
+[0.100s] -- Detecting C compiler ABI info - done
+[0.104s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.104s] -- Detecting C compile features
+[0.104s] -- Detecting C compile features - done
+[0.105s] -- Detecting CXX compiler ABI info
+[0.149s] -- Detecting CXX compiler ABI info - done
+[0.155s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.155s] -- Detecting CXX compile features
+[0.155s] -- Detecting CXX compile features - done
+[0.156s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.487s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.507s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.509s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.525s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.587s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.602s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.622s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.629s] -- Looking for pthread.h
+[0.667s] -- Looking for pthread.h - found
+[0.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.705s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.706s] -- Found Threads: TRUE  
+[0.734s] -- Found message_interface_robosoccer: 0.0.0 (/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/share/message_interface_robosoccer/cmake)
+[0.761s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.815s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.815s] -- Configured cppcheck include dirs: 
+[0.815s] -- Configured cppcheck exclude dirs and/or files: 
+[0.815s] -- Added test 'lint_cmake' to check CMake code style
+[0.815s] -- Added test 'uncrustify' to check C / C++ code style
+[0.815s] -- Configured uncrustify additional arguments: 
+[0.816s] -- Added test 'xmllint' to check XML markup files
+[0.816s] -- Configuring done
+[0.821s] -- Generating done
+[0.823s] -- Build files have been written to: /home/eric/wjg/elong_ws_fps/build/strategy_robosoccer
+[0.828s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/eric/wjg/elong_ws_fps/src/strategy_robosoccer -DCMAKE_INSTALL_PREFIX=/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer
+[0.829s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/strategy_robosoccer -- -j24 -l24
+[0.856s] [ 33%] [32mBuilding CXX object CMakeFiles/strategy.dir/src/Geometry.cpp.o[0m
+[0.857s] [ 66%] [32mBuilding CXX object CMakeFiles/strategy.dir/src/strategy.cpp.o[0m
+[0.999s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13671:20:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.999s] 13671 |  /* if(ball.x < 30 /*&& (ball.y < DN_LINE || ball.y > UP_LINE)*//*)
+[0.999s]       |                     
+[2.626s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::taskDecompose(int)[m[K’:
+[2.626s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:11311:8:[m[K [01;35m[Kwarning: [m[Ksuggest explicit braces to avoid ambiguous ‘[01m[Kelse[m[K’ [[01;35m[K-Wdangling-else[m[K]
+[2.626s] 11311 |      if[01;35m[K([m[KisAttack)
+[2.626s]       |        [01;35m[K^[m[K
+[2.629s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kdouble Strategy::TNpara(int, RobotPose, Point, Point, double, double)[m[K’:
+[2.629s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12424:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.629s] 12424 | double TNpara([01;35m[Kint i[m[K,RobotPose myrobot,Point ball,Point goal,double dist,double angle)
+[2.629s]       |               [01;35m[K~~~~^[m[K
+[2.629s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kdouble Strategy::TNpara(int, RobotPose, BallPoint, Point, double, double)[m[K’:
+[2.629s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12462:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.629s] 12462 | double TNpara([01;35m[Kint i[m[K,RobotPose myrobot,BallPoint ball,Point goal,double dist,double angle)
+[2.630s]       |               [01;35m[K~~~~^[m[K
+[2.630s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionNew(RobotPose*, Point, Point, double, int, Velocity*)[m[K’:
+[2.630s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12509:6:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvemax[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.630s] 12509 |  int [01;35m[Kvemax[m[K;
+[2.630s]       |      [01;35m[K^~~~~[m[K
+[2.630s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12511:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdist[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.630s] 12511 |  double [01;35m[Kdist[m[K;
+[2.631s]       |         [01;35m[K^~~~[m[K
+[2.631s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12515:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdelta[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.631s] 12515 |  double [01;35m[Kdelta[m[K,angletemp;
+[2.631s]       |         [01;35m[K^~~~~[m[K
+[2.631s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12515:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangletemp[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.631s] 12515 |  double delta,[01;35m[Kangletemp[m[K;
+[2.631s]       |               [01;35m[K^~~~~~~~~[m[K
+[2.631s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12516:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkp4new[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.632s] 12516 |  double [01;35m[Kkp4new[m[K = 15.0;
+[2.632s]       |         [01;35m[K^~~~~~[m[K
+[2.632s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12567:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kla[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.632s] 12567 |  double ka,[01;35m[Kla[m[K;
+[2.632s]       |            [01;35m[K^~[m[K
+[2.632s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12587:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.632s] 12587 | [01;35m[K}[m[K
+[2.632s]       | [01;35m[K^[m[K
+[2.632s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12501:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpSpeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.632s] 12501 |          int IfEndprocess,[01;35m[KVelocity* pSpeed[m[K)
+[2.632s]       |                           [01;35m[K~~~~~~~~~~^~~~~~[m[K
+[2.632s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionNew(RobotPose*, BallPoint, Point, double, int, Velocity*)[m[K’:
+[2.632s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12598:6:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvemax[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.632s] 12598 |  int [01;35m[Kvemax[m[K;
+[2.632s]       |      [01;35m[K^~~~~[m[K
+[2.632s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12600:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdist[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.632s] 12600 |  double [01;35m[Kdist[m[K;
+[2.632s]       |         [01;35m[K^~~~[m[K
+[2.632s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12604:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdelta[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.633s] 12604 |  double [01;35m[Kdelta[m[K,angletemp;
+[2.633s]       |         [01;35m[K^~~~~[m[K
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12604:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangletemp[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.635s] 12604 |  double delta,[01;35m[Kangletemp[m[K;
+[2.635s]       |               [01;35m[K^~~~~~~~~[m[K
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12605:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkp4new[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.635s] 12605 |  double [01;35m[Kkp4new[m[K = 15.0;
+[2.635s]       |         [01;35m[K^~~~~~[m[K
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12656:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kla[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.635s] 12656 |  double ka,[01;35m[Kla[m[K;
+[2.635s]       |            [01;35m[K^~[m[K
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12676:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.635s] 12676 | [01;35m[K}[m[K
+[2.635s]       | [01;35m[K^[m[K
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12590:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpSpeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.635s] 12590 |          int IfEndprocess,[01;35m[KVelocity* pSpeed[m[K)
+[2.635s]       |                           [01;35m[K~~~~~~~~~~^~~~~~[m[K
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::AvoidSelfBump(RobotPose*, Point, int, Velocity*)[m[K’:
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12728:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdirectionpt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.635s] 12728 | int AvoidSelfBump(RobotPose *robot,[01;35m[KPoint directionpt[m[K,int flag, Velocity *pSpeed)
+[2.635s]       |                                    [01;35m[K~~~~~~^~~~~~~~~~~[m[K
+[2.635s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionNPTC(RobotPose*, Point, double, Velocity*)[m[K’:
+[2.636s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12789:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdist[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.636s] 12789 |  double [01;35m[Kdist[m[K;
+[2.636s]       |         [01;35m[K^~~~[m[K
+[2.636s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::AvoidALLRobotsM(RobotPose*, Point, double, double, Velocity*)[m[K’:
+[2.636s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:12967:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ki_ORobotInformation[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.636s] 12967 |  int i_Count[6] = {0},[01;35m[Ki_ORobotInformation[m[K[6] = {0};
+[2.636s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.636s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::EndProcess_Forhit_mid(int, RobotPose*, Point, BallPoint, Velocity*)[m[K’:
+[2.636s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13407:22:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.636s] 13407 |      if([01;35m[Kangle3<Pi*0.2&&angle3>=0[m[K||angle3>Pi*1.8&&angle3<2*Pi)
+[2.636s]       |         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.637s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13518:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.637s] 13518 |    if([01;35m[Kangle3<Pi*0.2&&angle3>=0[m[K||angle3>Pi*1.8&&angle3<2*Pi)
+[2.637s]       |       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.637s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13602:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.637s] 13602 |   if(([01;35m[Kangle3<Pi*0.2&&angle3>=0[m[K||angle3>Pi*1.8&&angle3<2*Pi)&&fabs(angle1)<Pi*0.45&&
+[2.637s]       |       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.637s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13603:41:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.637s] 13603 |    distE<=maxe&& dist<=maxd &&([01;35m[Kangle2>=0&&angle2<=Pi*0.45[m[K||angle2>=Pi*1.55&&angle2<=2*Pi))
+[2.637s]       |                                [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.637s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13631:41:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.637s] 13631 |    distE<=maxe&& dist<=maxd &&([01;35m[Kangle2>=0&&angle2<=Pi*0.45[m[K||angle2>=Pi*1.55&&angle2<=2*Pi))
+[2.638s]       |                                [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.639s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13339:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kr[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.639s] 13339 |     double [01;35m[Kr[m[K,dist,distE,anglerb2ball,anglerb2target,angle1,angle2,angle3,angleball2target,maxe,maxd,maxspeed;
+[2.639s]       |            [01;35m[K^[m[K
+[2.639s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13339:74:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangleball2target[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.639s] 13339 | ,dist,distE,anglerb2ball,anglerb2target,angle1,angle2,angle3,[01;35m[Kangleball2target[m[K,maxe,maxd,maxspeed;
+[2.639s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.640s] 
+[2.640s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13365:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.640s] 13365 |     double [01;35m[Kkp[m[K=16;
+[2.640s]       |            [01;35m[K^~[m[K
+[2.640s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::GoalieAction(RobotPose*, BallPoint, Velocity*)[m[K’:
+[2.641s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13908:15:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Ktarget.Point::y[m[K’ may be undefined [[01;35m[K-Wsequence-point[m[K]
+[2.641s] 13908 |       [01;35m[Ktarget.y=target.y = GATE_UP_LINE-gtError[m[K;//-3
+[2.641s]       |       [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.641s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14184:3:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[2.641s] 14184 |   [01;35m[Kif[m[K(dx*dx + dy*dy < 2.0*2.0)
+[2.641s]       |   [01;35m[K^~[m[K
+[2.641s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14190:4:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[2.641s] 14190 |    [01;36m[Kif[m[K(pRobotInford->y > GATE_UP_LINE || pRobotInford->y < GATE_DN_LINE)
+[2.641s]       |    [01;36m[K^~[m[K
+[2.641s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14184:5:[m[K [01;35m[Kwarning: [m[Ksuggest explicit braces to avoid ambiguous ‘[01m[Kelse[m[K’ [[01;35m[K-Wdangling-else[m[K]
+[2.641s] 14184 |   if[01;35m[K([m[Kdx*dx + dy*dy < 2.0*2.0)
+[2.641s]       |     [01;35m[K^[m[K
+[2.641s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:13700:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KSM_offset[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.642s] 13700 |  double dx,dy,k_ball,[01;35m[KSM_offset[m[K;
+[2.642s]       |                      [01;35m[K^~~~~~~~~[m[K
+[2.642s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::Outofforbiddenzonezq(Point, ROSrect, int, int, Point, int*, Point*)[m[K’:
+[2.642s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14227:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ka[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.642s] 14227 |     double [01;35m[Ka[m[K,b,c,d;
+[2.642s]       |            [01;35m[K^[m[K
+[2.642s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::CS_ToPositionN1(RobotPose*, Point, BallPoint, int, double, double, Velocity*)[m[K’:
+[2.642s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14333:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdist[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.642s] 14333 |  double [01;35m[Kdist[m[K;
+[2.642s]       |         [01;35m[K^~~~[m[K
+[2.642s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14365:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.642s] 14365 |  double trantheta,dx,dy,[01;35m[Ktemp[m[K=200;
+[2.643s]       |                         [01;35m[K^~~~[m[K
+[2.643s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14366:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.643s] 14366 |  int [01;35m[Kk[m[K = 10;
+[2.643s]       |      [01;35m[K^[m[K
+[2.643s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::AvoidSelfRobotsM(RobotPose*, Point, double, Velocity*)[m[K’:
+[2.643s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14691:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ki_ORobotInformation[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.643s] 14691 |  int i_Count[6] = {0},[01;35m[Ki_ORobotInformation[m[K[6] = {0};
+[2.643s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.643s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::CS_ClearBall(RobotPose*, BallPoint, Velocity*)[m[K’:
+[2.643s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14882:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdet[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.645s] 14882 |   double [01;35m[Kdet[m[K;
+[2.645s]       |          [01;35m[K^~~[m[K
+[2.645s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionM(RobotPose*, Point, double, Velocity*)[m[K’:
+[2.645s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:14913:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdist[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.645s] 14913 |  double [01;35m[Kdist[m[K;
+[2.645s]       |         [01;35m[K^~~~[m[K
+[2.645s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::AvoidALLRobots(RobotPose*, Point, double, Velocity*)[m[K’:
+[2.646s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15200:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ki_ORobotInformation[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.646s] 15200 |  int i_Count[6] = {0},[01;35m[Ki_ORobotInformation[m[K[6] = {0};
+[2.646s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.647s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionPDchampionnew(RobotPose*, Point, double, Velocity*)[m[K’:
+[2.647s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15379:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktheta_e2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.647s] 15379 |  static double [01;35m[Ktheta_e2[m[K = 0;  //e2Ϊ��һ���ڽǶ����
+[2.647s]       |                [01;35m[K^~~~~~~~[m[K
+[2.648s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionForShoot(RobotPose*, BallPoint, int, double, Velocity*)[m[K’:
+[2.648s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15666:2:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[2.648s] 15666 |  [01;35m[Kif[m[K(distRobot2Pt(*robot,directionpt)<20)
+[2.648s]       |  [01;35m[K^~[m[K
+[2.648s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15687:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[2.648s] 15687 |   [01;36m[Kdouble[m[K kp4new;
+[2.648s]       |   [01;36m[K^~~~~~[m[K
+[2.648s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15666:4:[m[K [01;35m[Kwarning: [m[Ksuggest explicit braces to avoid ambiguous ‘[01m[Kelse[m[K’ [[01;35m[K-Wdangling-else[m[K]
+[2.648s] 15666 |  if[01;35m[K([m[KdistRobot2Pt(*robot,directionpt)<20)
+[2.648s]       |    [01;35m[K^[m[K
+[2.648s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15654:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdist[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.648s] 15654 |  double [01;35m[Kdist[m[K;
+[2.648s]       |         [01;35m[K^~~~[m[K
+[2.649s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::CS_ToPosition68(RobotPose*, BallPoint, Point, double, int, Velocity*)[m[K’:
+[2.649s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15787:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KIfEndprocess[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.649s] 15787 |            double samespeed, [01;35m[Kint IfEndprocess[m[K, Velocity *pSpeed)
+[2.649s]       |                              [01;35m[K~~~~^~~~~~~~~~~~[m[K
+[2.650s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kvoid Strategy::charInterpret(int, int, Velocity*)[m[K’:
+[2.650s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:15935:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangle[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.650s] 15935 |    double dx,dy,[01;35m[Kangle[m[K;
+[2.650s]       |                 [01;35m[K^~~~~[m[K
+[2.653s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:16506:40:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.654s] 16506 |     ([01;35m[Kball_point.y<150&&ball_point.y>80 && down==1[m[K||ball_point.y>30&&ball_point.y<100&&down==-1)
+[2.654s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.654s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:16508:38:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.654s] 16506 |     [01;35m[K(ball_point.y<150&&ball_point.y>80 && down==1||ball_point.y>30&&ball_point.y<100&&down==-1)[m[K
+[2.654s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.654s] 16507 | [01;35m[K    &&cal_2PointsDist(pt,goal)>s2-distlimit  &&   readyflag==0[m[K
+[2.654s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.654s] 16508 | [01;35m[K    &&my_robot_pose[robotNo].y<95    &&   my_robot_pose[robotNo].y>85[m[K))//ֱ�������
+[2.654s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.654s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:16387:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktimeshoot[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.654s] 16387 |    double [01;35m[Ktimeshoot[m[K;
+[2.654s]       |           [01;35m[K^~~~~~~~~[m[K
+[2.654s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:16393:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.654s] 16393 |    int [01;35m[Kx[m[K = shootsign3;
+[2.655s]       |        [01;35m[K^[m[K
+[2.655s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:16395:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kchongflag[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.655s] 16395 |    int [01;35m[Kchongflag[m[K=0;//ֱ���־
+[2.655s]       |        [01;35m[K^~~~~~~~~[m[K
+[2.659s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:17269:90:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.659s] 17269 | [01;35m[Kpoint.y<520.0+15.0 && ball_point.x+3*ball_point.y>520.0-15.0 && ball_point.x>145[m[K  ||
+[2.659s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.659s] 
+[2.659s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:17333:84:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.659s] 17333 | [01;35m[Kall_point.y<20.0+15.0&&ball_point.x-3*ball_point.y>20.0-15.0 && ball_point.x>145[m[K || (goal.x<220&&goal.x>170 &&
+[2.659s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.659s] 
+[2.665s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18224:27:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksign[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.665s] 18224 |    static int shootsign=0,[01;35m[Ksign[m[K=0;
+[2.665s]       |                           [01;35m[K^~~~[m[K
+[2.665s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18374:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kiii[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.665s] 18374 |    int [01;35m[Kiii[m[K=0;
+[2.665s]       |        [01;35m[K^~~[m[K
+[2.665s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18375:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ks[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.665s] 18375 |    double theta,[01;35m[Ks[m[K,endtheta;
+[2.665s]       |                 [01;35m[K^[m[K
+[2.665s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18375:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kendtheta[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.665s] 18375 |    double theta,s,[01;35m[Kendtheta[m[K;
+[2.665s]       |                   [01;35m[K^~~~~~~~[m[K
+[2.665s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18492:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshootsign[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.665s] 18492 |             static int [01;35m[Kshootsign[m[K=0,sign=0,robotNum;
+[2.665s]       |                        [01;35m[K^~~~~~~~~[m[K
+[2.665s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18492:36:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksign[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.665s] 18492 |             static int shootsign=0,[01;35m[Ksign[m[K=0,robotNum;
+[2.665s]       |                                    [01;35m[K^~~~[m[K
+[2.665s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18492:43:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KrobotNum[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.665s] 18492 |             static int shootsign=0,sign=0,[01;35m[KrobotNum[m[K;
+[2.665s]       |                                           [01;35m[K^~~~~~~~[m[K
+[2.667s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kdouble Strategy::charPerformance(int, RobotPose*, int)[m[K’:
+[2.667s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18639:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.667s] 18639 |     int [01;35m[Kk[m[K,dist1,dist;
+[2.667s]       |         [01;35m[K^[m[K
+[2.667s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18639:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.667s] 18639 |     int k,[01;35m[Kdist1[m[K,dist;
+[2.667s]       |           [01;35m[K^~~~~[m[K
+[2.667s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18639:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.668s] 18639 |     int k,dist1,[01;35m[Kdist[m[K;
+[2.668s]       |                 [01;35m[K^~~~[m[K
+[2.671s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:18534:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdown[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.671s] 18534 |   int flag_1=0 , [01;35m[Kdown[m[K=0;
+[2.671s]       |                  [01;35m[K^~~~[m[K
+[2.675s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kdouble Strategy::GetCharPerformance(int, RobotPose, Point, Point)[m[K’:
+[2.675s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:19863:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.675s] 19863 |   double [01;35m[Kk[m[K,angle1,angle,angle2,result,k1,ddist;
+[2.675s]       |          [01;35m[K^[m[K
+[2.675s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:19863:39:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.675s] 19863 |   double k,angle1,angle,angle2,result,[01;35m[Kk1[m[K,ddist;
+[2.675s]       |                                       [01;35m[K^~[m[K
+[2.675s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:19861:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.675s] 19861 |  double GetCharPerformance([01;35m[Kint no[m[K, RobotPose myRobot, Point ball_point, Point dpt)
+[2.676s]       |                            [01;35m[K~~~~^~[m[K
+[2.679s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kdouble Strategy::GetCharPerformance(int, RobotPose, BallPoint, Point)[m[K’:
+[2.679s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:20732:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.680s] 20732 |   double [01;35m[Kk[m[K,angle1,angle,angle2,result,k1,ddist;
+[2.680s]       |          [01;35m[K^[m[K
+[2.680s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:20732:39:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.680s] 20732 |   double k,angle1,angle,angle2,result,[01;35m[Kk1[m[K,ddist;
+[2.680s]       |                                       [01;35m[K^~[m[K
+[2.680s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:20730:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.680s] 20730 |  double GetCharPerformance([01;35m[Kint no[m[K, RobotPose myRobot, BallPoint ball_point, Point dpt)
+[2.680s]       |                            [01;35m[K~~~~^~[m[K
+[2.680s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::GetBestRobot(double*, int)[m[K’:
+[2.680s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:21600:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcharNo[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.680s] 21600 |  int GetBestRobot(double Performance[12], [01;35m[Kint charNo[m[K)
+[2.680s]       |                                           [01;35m[K~~~~^~~~~~[m[K
+[2.681s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionPDlimit(RobotPose*, Point, double, double, Velocity*)[m[K’:
+[2.681s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:21628:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktheta_e2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.681s] 21628 |  static double [01;35m[Ktheta_e2[m[K = 0;  //e2Ϊ��һ���ڽǶ����
+[2.681s]       |                [01;35m[K^~~~~~~~[m[K
+[2.684s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::BoundPushBall(RobotPose, Point, Velocity&)[m[K’:
+[2.684s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:21880:47:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.684s] 21880 |     if(charRobot.x<errord&&(charRobot.theta>=0&&charRobot.theta<.4*Pi||charRobot.theta>0.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.684s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:21880:142:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.684s] 21880 | .theta>0.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.684s] 
+[2.684s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:21998:60:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.684s] 21998 |     if(charRobot.y>walltop - errord&&(charRobot.theta>.2*Pi&&charRobot.theta<.8*Pi||charRobot.theta>1.2*Pi&&charRobot.theta<1.8*Pi))
+[2.684s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22117:59:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.684s] 22117 |     if(charRobot.x>wallright - errord&&(charRobot.theta>=0&&charRobot.theta<.4*Pi||charRobot.theta>.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.684s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22117:153:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.684s] 22117 | t.theta>.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.684s] 
+[2.685s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22212:47:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.685s] 22212 |     if(charRobot.x<errord&&(charRobot.theta>=0&&charRobot.theta<.4*Pi||charRobot.theta>.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.685s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22212:141:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.685s] 22212 | t.theta>.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.685s] 
+[2.689s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22330:50:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.689s] 22330 |     if(charRobot.y<errord&&(charRobot.theta>.1*Pi&&charRobot.theta<.9*Pi||charRobot.theta>1.1*Pi&&charRobot.theta<1.9*Pi))
+[2.689s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22448:59:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.689s] 22448 |     if(charRobot.x>wallright - errord&&(charRobot.theta>=0&&charRobot.theta<.4*Pi||charRobot.theta>.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.689s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22448:153:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.689s] 22448 | t.theta>.6*Pi&&charRobot.theta<1.4*Pi||charRobot.theta>1.6*Pi&&charRobot.theta<2*Pi))
+[2.689s] 
+[2.689s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::choosebestpt(RobotPose, BallPoint&, Point*)[m[K’:
+[2.689s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22560:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kball[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.689s] 22560 | int choosebestpt(RobotPose pRobotInford, [01;35m[KBallPoint &ball[m[K, Point *pt)
+[2.689s]       |                                          [01;35m[K~~~~~~~~~~~^~~~[m[K
+[2.691s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::New_QuickCurve(RobotPose*, BallPoint, Velocity*)[m[K’:
+[2.691s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22658:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.691s] 22658 |  double R,V,V1,V2,V3,[01;35m[Kt[m[K,t1,angle;
+[2.691s]       |                      [01;35m[K^[m[K
+[2.691s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22658:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.691s] 22658 |  double R,V,V1,V2,V3,t,[01;35m[Kt1[m[K,angle;
+[2.691s]       |                        [01;35m[K^~[m[K
+[2.691s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22658:27:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangle[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.691s] 22658 |  double R,V,V1,V2,V3,t,t1,[01;35m[Kangle[m[K;
+[2.691s]       |                           [01;35m[K^~~~~[m[K
+[2.693s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::hitwallCS_CurveShoot(int, RobotPose*, BallPoint, Point, Point, Point, Velocity*, int)[m[K’:
+[2.693s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22808:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvemax[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.693s] 22808 |  double kp4new,[01;35m[Kvemax[m[K,samespeed;//k1,k2,
+[2.693s]       |                [01;35m[K^~~~~[m[K
+[2.693s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22811:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbangle[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.693s] 22811 |  double [01;35m[Kbangle[m[K;
+[2.693s]       |         [01;35m[K^~~~~~[m[K
+[2.693s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:22805:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Khitwall[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.693s] 22805 |              Velocity *pSpeed,[01;35m[Kint hitwall[m[K)
+[2.693s]       |                               [01;35m[K~~~~^~~~~~~[m[K
+[2.704s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::CS_CurveShootfball(int, RobotPose*, BallPoint, Point, Point, Velocity*, int)[m[K’:
+[2.704s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23027:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvemax[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.704s] 23027 |  double kp4new,[01;35m[Kvemax[m[K,samespeed;//k1,k2,
+[2.704s]       |                [01;35m[K^~~~~[m[K
+[2.704s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23031:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbangle[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.704s] 23031 |  double [01;35m[Kbangle[m[K;
+[2.704s]       |         [01;35m[K^~~~~~[m[K
+[2.704s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23024:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Khitwall[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.704s] 23024 |            Point directionpt, Velocity*pSpeed,[01;35m[Kint hitwall[m[K)
+[2.704s]       |                                               [01;35m[K~~~~^~~~~~~[m[K
+[2.706s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::CS_ToPositionNewfyp(RobotPose*, BallPoint, Point, int, Velocity*)[m[K’:
+[2.706s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23451:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.706s] 23451 |         double [01;35m[Kangle1[m[K,pt1angle2,pt2angle2,result,ddist,pt1angle,pt2angle,angle2;
+[2.706s]       |                [01;35m[K^~~~~~[m[K
+[2.706s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23451:43:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.706s] 23451 |         double angle1,pt1angle2,pt2angle2,[01;35m[Kresult[m[K,ddist,pt1angle,pt2angle,angle2;
+[2.706s]       |                                           [01;35m[K^~~~~~[m[K
+[2.706s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23454:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangleforpi[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.706s] 23454 |   int [01;35m[Kangleforpi[m[K,angle2forpi;
+[2.706s]       |       [01;35m[K^~~~~~~~~~[m[K
+[2.706s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23454:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle2forpi[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.707s] 23454 |   int angleforpi,[01;35m[Kangle2forpi[m[K;
+[2.707s]       |                  [01;35m[K^~~~~~~~~~~[m[K
+[2.707s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23681:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KV2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.707s] 23681 |   double [01;35m[KV2[m[K=10;
+[2.707s]       |          [01;35m[K^~[m[K
+[2.708s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23245:6:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kflag_1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.708s] 23245 |  int [01;35m[Kflag_1[m[K=0 , down=0;
+[2.708s]       |      [01;35m[K^~~~~~[m[K
+[2.708s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23257:6:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kminrflag[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.708s] 23257 |  int [01;35m[Kminrflag[m[K,midrflag,maxrflag;
+[2.708s]       |      [01;35m[K^~~~~~~~[m[K
+[2.708s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23257:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmidrflag[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.708s] 23257 |  int minrflag,[01;35m[Kmidrflag[m[K,maxrflag;
+[2.708s]       |               [01;35m[K^~~~~~~~[m[K
+[2.708s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23257:24:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmaxrflag[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.708s] 23257 |  int minrflag,midrflag,[01;35m[Kmaxrflag[m[K;
+[2.708s]       |                        [01;35m[K^~~~~~~~[m[K
+[2.708s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:23261:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle4[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.708s] 23261 |  double dist6,distE,angle7,angle8,maxe,[01;35m[Kangle4[m[K,anglerb2ball;//����һЩ�Ƕȡ��������
+[2.708s]       |                                        [01;35m[K^~~~~~[m[K
+[2.710s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::Vect_MidShoot1(RobotPose, BallPoint&, Velocity*)[m[K’:
+[2.710s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24541:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khitwalltime[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.711s] 24541 |   static int [01;35m[Khitwalltime[m[K=0;
+[2.711s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[2.711s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24542:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdelta[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.711s] 24542 |   double [01;35m[Kdelta[m[K,angletemp;
+[2.711s]       |          [01;35m[K^~~~~[m[K
+[2.711s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24542:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangletemp[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.711s] 24542 |   double delta,[01;35m[Kangletemp[m[K;
+[2.711s]       |                [01;35m[K^~~~~~~~~[m[K
+[2.711s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24560:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdeltax[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.711s] 24560 |   double [01;35m[Kdeltax[m[K;
+[2.711s]       |          [01;35m[K^~~~~~[m[K
+[2.711s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::GetWarInformation(ROSrect, Point*, int&, bool)[m[K’:
+[2.711s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24625:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ka[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.711s] 24625 |   double [01;35m[Ka[m[K,b,c,d;
+[2.711s]       |          [01;35m[K^[m[K
+[2.713s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24625:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kb[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.713s] 24625 |   double a,[01;35m[Kb[m[K,c,d;
+[2.713s]       |            [01;35m[K^[m[K
+[2.713s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24625:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.713s] 24625 |   double a,b,[01;35m[Kc[m[K,d;
+[2.713s]       |              [01;35m[K^[m[K
+[2.713s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24625:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kd[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.713s] 24625 |   double a,b,c,[01;35m[Kd[m[K;
+[2.713s]       |                [01;35m[K^[m[K
+[2.713s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::New_EndProcess(int, RobotPose*, Point, BallPoint, Velocity*)[m[K’:
+[2.713s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24831:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.713s] 24831 |    if([01;35m[Kangle3<Pi*0.2&&angle3>=0[m[K||angle3>Pi*1.8&&angle3<2*Pi)
+[2.713s]       |       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.713s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:25037:21:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.714s] 25037 |   if(([01;35m[Kangle3<Pi*0.2 && angle3>=0[m[K||angle3>Pi*1.8 && angle3<2*Pi) && fabs(angle1)<Pi*0.45 && distE<=maxe &&
+[2.714s]       |       [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.714s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:25038:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+[2.714s] 25038 |    dist<=maxd && ([01;35m[Kangle2>=0 && angle2<=Pi*0.45[m[K||angle2>=Pi*1.55 && angle2<=2*Pi))
+[2.714s]       |                   [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.714s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24743:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kr[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.714s] 24743 |   double [01;35m[Kr[m[K,dist,distE,anglerb2ball,anglerb2target,angle1,angle2,angle3,angleball2target,maxe,maxd,maxspeed;
+[2.714s]       |          [01;35m[K^[m[K
+[2.714s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:24743:72:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangleball2target[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.714s] 24743 | ,dist,distE,anglerb2ball,anglerb2target,angle1,angle2,angle3,[01;35m[Kangleball2target[m[K,maxe,maxd,maxspeed;
+[2.714s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.714s] 
+[2.715s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::position(RobotPose*, Point, Velocity*)[m[K’:
+[2.715s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:25230:6:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kkind[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.715s] 25230 |  int [01;35m[Kkind[m[K=0;
+[2.715s]       |      [01;35m[K^~~~[m[K
+[2.715s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::ToPositionPDGoal(RobotPose*, Point, double, double, Velocity*)[m[K’:
+[2.715s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:25260:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktheta_e2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.715s] 25260 |  static double [01;35m[Ktheta_e2[m[K = 0;
+[2.715s]       |                [01;35m[K^~~~~~~~[m[K
+[2.724s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:[m[K In member function ‘[01m[Kint Strategy::CS_ToPositionNew(RobotPose*, BallPoint, Point, int, Velocity*)[m[K’:
+[2.724s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:26171:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.724s] 26171 |         double [01;35m[Kangle1[m[K,pt1angle2,pt2angle2,/*result,*/ddist,pt1angle,pt2angle,angle2;
+[2.724s]       |                [01;35m[K^~~~~~[m[K
+[2.724s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:26174:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangleforpi[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.724s] 26174 |   int [01;35m[Kangleforpi[m[K,angle2forpi;
+[2.724s]       |       [01;35m[K^~~~~~~~~~[m[K
+[2.724s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:26174:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle2forpi[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.724s] 26174 |   int angleforpi,[01;35m[Kangle2forpi[m[K;
+[2.724s]       |                  [01;35m[K^~~~~~~~~~~[m[K
+[2.724s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:26390:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KV2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.724s] 26390 |   double [01;35m[KV2[m[K=10;
+[2.724s]       |          [01;35m[K^~[m[K
+[2.726s] [01m[K/home/eric/wjg/elong_ws_fps/src/strategy_robosoccer/src/strategy.cpp:25985:6:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kflag_1[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.726s] 25985 |  int [01;35m[Kflag_1[m[K=0 , down=0;
+[2.726s]       |      [01;35m[K^~~~~~[m[K
+[10.646s] [100%] [32m[1mLinking CXX executable strategy[0m
+[11.040s] [100%] Built target strategy
+[11.046s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/strategy_robosoccer -- -j24 -l24
+[11.047s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/strategy_robosoccer
+[11.054s] -- Install configuration: ""
+[11.054s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/ament_index/resource_index/package_run_dependencies/strategy_robosoccer
+[11.054s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/ament_index/resource_index/parent_prefix_path/strategy_robosoccer
+[11.054s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/ament_prefix_path.sh
+[11.054s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/ament_prefix_path.dsv
+[11.054s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/path.sh
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/environment/path.dsv
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.bash
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.sh
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.zsh
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/local_setup.dsv
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/package.dsv
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/ament_index/resource_index/packages/strategy_robosoccer
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/cmake/strategy_robosoccerConfig.cmake
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/cmake/strategy_robosoccerConfig-version.cmake
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/share/strategy_robosoccer/package.xml
+[11.055s] -- Installing: /home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/lib/strategy_robosoccer/strategy
+[11.061s] -- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer/lib/strategy_robosoccer/strategy" to ""
+[11.063s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/strategy_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/strategy_robosoccer

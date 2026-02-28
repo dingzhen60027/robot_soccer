@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6fc1d0ce7a98310823c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gui_robosoccer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gui_robosoccer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gui_robosoccer-Debug-67afd9990cc15be0c68a.json",
+					"name" : "gui_robosoccer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gui_robosoccer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gui_robosoccer_autogen-Debug-77a929832cf9eddaa816.json",
+					"name" : "gui_robosoccer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gui_robosoccer_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gui_robosoccer_uninstall-Debug-83097288c41c7143421a.json",
+					"name" : "gui_robosoccer_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-086be9eda5792f1bc63b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eric/wjg/elong_ws_fps/build/gui_robosoccer",
+		"source" : "/home/eric/wjg/elong_ws_fps/src/gui_robosoccer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

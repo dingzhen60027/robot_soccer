@@ -1,0 +1,16 @@
+setup.py
+message_interface_robosoccer/__init__.py
+message_interface_robosoccer.egg-info/PKG-INFO
+message_interface_robosoccer.egg-info/SOURCES.txt
+message_interface_robosoccer.egg-info/dependency_links.txt
+message_interface_robosoccer.egg-info/top_level.txt
+message_interface_robosoccer/msg/__init__.py
+message_interface_robosoccer/msg/_array_threshold.py
+message_interface_robosoccer/msg/_decision_var.py
+message_interface_robosoccer/msg/_image.py
+message_interface_robosoccer/msg/_point.py
+message_interface_robosoccer/msg/_point_calibration.py
+message_interface_robosoccer/msg/_pose.py
+message_interface_robosoccer/msg/_pose_robots.py
+message_interface_robosoccer/msg/_velocity.py
+message_interface_robosoccer/msg/_velocity_robots.py

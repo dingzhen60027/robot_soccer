@@ -1,0 +1,14 @@
+{
+  "package_name": "message_interface_robosoccer",
+  "non_idl_tuples": [
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/ArrayThreshold.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/PointCalibration.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/Point.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/Image.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/PoseRobots.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/Pose.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/Velocity.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/VelocityRobots.msg",
+    "/home/eric/wjg/elong_ws_fps/src/message_interface_robosoccer:msg/DecisionVar.msg"
+  ]
+}

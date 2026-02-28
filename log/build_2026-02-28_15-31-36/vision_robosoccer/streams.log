@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/vision_robosoccer -- -j24 -l24
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target vision[0m
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target vision_processing[0m
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target vision_control_test[0m
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target vision_display_test[0m
+[0.034s] [ 25%] Built target vision
+[0.037s] [ 50%] Built target vision_display_test
+[0.037s] [ 75%] Built target vision_processing
+[0.037s] [100%] Built target vision_control_test
+[0.044s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/vision_robosoccer -- -j24 -l24
+[0.045s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/vision_robosoccer
+[0.049s] -- Install configuration: ""
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/ament_index/resource_index/package_run_dependencies/vision_robosoccer
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/ament_index/resource_index/parent_prefix_path/vision_robosoccer
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/ament_prefix_path.dsv
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/path.sh
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/path.dsv
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.bash
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.sh
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.zsh
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.dsv
+[0.049s] -- Installing: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/package.dsv
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/ament_index/resource_index/packages/vision_robosoccer
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/cmake/vision_robosoccerConfig.cmake
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/cmake/vision_robosoccerConfig-version.cmake
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/package.xml
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision_processing
+[0.049s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision_control_test
+[0.050s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision_display_test
+[0.056s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer' returned '0': AMENT_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/opt/ros/humble LD_LIBRARY_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/vision_robosoccer
