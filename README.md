@@ -1,4 +1,4 @@
-# ⚽ 5v5 Robot Soccer System
+# 5v5 Robot Soccer System
 
 A complete **5v5 robot soccer software stack** integrating perception, strategy, communication, GUI, and simulation.
 
@@ -12,7 +12,7 @@ The system is designed for real-time multi-robot coordination and can run in bot
 
 ---
 
-## 🚀 Features
+## Features
 
 * ✅ Multi-robot (5v5) architecture
 * ✅ Vision processing pipeline
@@ -25,7 +25,7 @@ The system is designed for real-time multi-robot coordination and can run in bot
 
 ---
 
-## 🧠 System Architecture
+## Overview
 
 ```
 Isaac Sim
@@ -37,7 +37,7 @@ Vision → Vision processed results → Strategy → Communication → Robots
                                   GUI
 
 ```
-### 🔄 Data Flow
+### Data Flow
 
 * **Isaac Sim**
 
@@ -69,7 +69,7 @@ Vision → Vision processed results → Strategy → Communication → Robots
 
 ---
 
-## 🏗️ Repository Structure
+## Repository Structure
 
 ```
 .
