@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/gui_robosoccer -- -j24 -l24
+[0.035s] [  5%] [34m[1mAutomatic MOC and UIC for target gui_robosoccer[0m
+[0.055s] [  5%] Built target gui_robosoccer_autogen
+[0.080s] [100%] Built target gui_robosoccer
+[0.088s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer' returned '0': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/gui_robosoccer -- -j24 -l24
+[0.089s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/gui_robosoccer
+[0.093s] -- Install configuration: "Debug"
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/lib/gui_robosoccer/gui_robosoccer
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/launch
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/launch/launch.py
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/package_run_dependencies/gui_robosoccer
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/parent_prefix_path/gui_robosoccer
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/path.sh
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/environment/path.dsv
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.bash
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.sh
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.zsh
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/local_setup.dsv
+[0.094s] -- Installing: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/package.dsv
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/ament_index/resource_index/packages/gui_robosoccer
+[0.094s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/cmake/gui_robosoccerConfig.cmake
+[0.095s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/cmake/gui_robosoccerConfig-version.cmake
+[0.095s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/gui_robosoccer/share/gui_robosoccer/package.xml
+[0.096s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/gui_robosoccer' returned '0': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/gui_robosoccer

@@ -1,0 +1,31 @@
+[0.009s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/vision_robosoccer -- -j24 -l24
+[0.036s] [ 25%] Built target vision_processing
+[0.037s] [ 50%] Built target vision_control_test
+[0.038s] [ 62%] [32mBuilding CXX object CMakeFiles/vision.dir/src/vision.cpp.o[0m
+[0.041s] [ 87%] Built target vision_display_test
+[5.844s] [100%] [32m[1mLinking CXX executable vision[0m
+[6.384s] [100%] Built target vision
+[6.390s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer' returned '0': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --build /home/eric/wjg/elong_ws_fps/build/vision_robosoccer -- -j24 -l24
+[6.391s] Invoking command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/vision_robosoccer
+[6.395s] -- Install configuration: ""
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/ament_index/resource_index/package_run_dependencies/vision_robosoccer
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/ament_index/resource_index/parent_prefix_path/vision_robosoccer
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/ament_prefix_path.sh
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/ament_prefix_path.dsv
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/path.sh
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/environment/path.dsv
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.bash
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.sh
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.zsh
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/local_setup.dsv
+[6.395s] -- Installing: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/package.dsv
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/ament_index/resource_index/packages/vision_robosoccer
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/cmake/vision_robosoccerConfig.cmake
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/cmake/vision_robosoccerConfig-version.cmake
+[6.395s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/share/vision_robosoccer/package.xml
+[6.395s] -- Installing: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision
+[6.398s] -- Set runtime path of "/home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision" to ""
+[6.398s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision_processing
+[6.398s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision_control_test
+[6.399s] -- Up-to-date: /home/eric/wjg/elong_ws_fps/install/vision_robosoccer/lib/vision_robosoccer/vision_display_test
+[6.400s] Invoked command in '/home/eric/wjg/elong_ws_fps/build/vision_robosoccer' returned '0': CMAKE_PREFIX_PATH=/home/eric/wjg/elong_ws_fps/install/message_interface_robosoccer:/home/eric/wjg/elong_ws_fps/install/vision_robosoccer:/home/eric/wjg/elong_ws_fps/install/strategy_robosoccer:/home/eric/wjg/elong_ws_fps/install/gui_robosoccer:/home/eric/wjg/elong_ws_fps/install/communication_robosoccer:/opt/ros/humble:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/scene_msgs:/home/eric/wjg/MultiAgent-Isaacsim/ros_msg/install/plan_msgs /usr/bin/cmake --install /home/eric/wjg/elong_ws_fps/build/vision_robosoccer
